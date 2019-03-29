@@ -1,6 +1,14 @@
 import React, { Component } from 'react'
 
 class CreateTodo extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      text: ''
+    };
+  }
+  
   render() {
     return(
       <div>
